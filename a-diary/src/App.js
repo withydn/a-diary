@@ -1,10 +1,8 @@
 import './App.css';
+import start from './pages/start/start';
 
 function App() {
-  return;
-  <>
-    <h1>APP 페이지 입니다 !</h1>
-  </>;
+  return <start />;
 }
 
 export default App;
