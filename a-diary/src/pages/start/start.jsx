@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from './start';
+import styled from './Start';
 
-export default function start() {
+export default function Start() {
   return (
     <div class={styled.container}>
       <div class={styled.body}></div>
