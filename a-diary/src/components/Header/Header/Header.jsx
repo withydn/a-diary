@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Header.module.css';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { logout } from '../../store/modules/users';
+import { logout } from '../../../store/modules/users';
 
 export default function Header() {
   const isLogin = useSelector((state) => state.user.isLogin);
